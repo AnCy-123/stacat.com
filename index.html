@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=C5JmbWLnLYPcZhbdW8IBQ4ML25PpwHcq_eb8v4zAyOJ7rO7nSOb1KAfVXIg6gefSDtvQH-REmf-D_mltbpzEA6p0SXR0adBcO14m0WJu_tiSGrq14YcYxQKwSMPYNMq0q8RN1iGiGAb80q21MwyuoXM9Y3DOjhC3uOAcVKwS9brymSYwhNykyRygQHhcwCAYwyuE7dmz0-9i6n3YY0XtZ-QXhX-AruQaczTzxkAdTPtLdTaemgcJZc-zkwInvJtRimW0N5Matgh32XNCYbtXGeNgKD5uiJjPY2TWxnUWpJiNjqVRLIpu-IMLYPWUrB2mODkrhUo-FE3BZkBTZovueQ" charset="UTF-8"></script>
+    <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMGstNmMtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy9jNTYwMzRuNDQ0OGhnMWNjN2JwZm52OGZpNjU4aGR1cy8wMzFqOWVwczU1ZXEyNm4yOW9kMW5kNGp0ZXFvZjQwcS8xNjA4MTg2NzUwMDAwLzAxOTYxNTI0MjExNjY2MTUxNzI0LzEwMzc5MzY0NTEyNDY1OTUxMDUxLzFPdlZpeE1lb2EtMk0zR1QtdTFnT3VxRGFDRWJldzg0Nj9lPWRvd25sb2FkJmF1dGh1c2VyPTA" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon"  href="S.png">
+    <title>
+       Stacat
+    </title>
+</head>
+
+<body>
+    <center>
+        <h1>
+            stacat
+            <sup>
+                <img class="img-circle" src="s.png">
+            </sup>
+        </h1>
+        <br>
+        <br>
+        <div class="logindiv">
+            <h3>
+                C'at The School
+            </h3>
+            <h4>Join <span class="s">Stac'at</span> today</h4>
+            <br>
+            <div class="frm">
+                <label>
+                    UserName - 
+                </label>
+                <input type="text" id="name" class="form-control" placeholder="Username">
+            </div>            
+            <br>
+            <button id="login" class="button" onclick="add()">
+                LOGIN
+            </button>
+        </div>
+    </center>
+    <script>
+    </script>
+    <script src="main.js"></script>
+    <script>
+     function add() {
+         unm = document.getElementById("name").value;
+         window.location = "Stacat.html";
+         localStorage.setItem("un" , unm );
+     }
+    </script>
+</body>
+
+</html>
